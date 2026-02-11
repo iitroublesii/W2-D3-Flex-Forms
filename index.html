@@ -10,19 +10,31 @@
     <div class="form-container">
       <h1>Simple Form</h1>
       <form id="simpleForm">
+
         <div class="form-group">
           <label for="firstName">First Name:</label>
           <input type="text" id="firstName" required />
+        </div>
 
-          <label for="lastName">Last Name:</label>
+          <div class="form-group">
+            <label for="lastName">Last Name:</label>
           <input type="text" id="lastName" required />
+          </div>
 
+<div class="form-group">
           <label for="email">Email:</label>
-          <input type="email" id="email" />
+          <input type="email" id="email" required />
+</div>
 
+<div class="form-group">
           <label for="password">Password:</label>
           <input type="password" id="password" minlength="6" required />
+</div>
+
+<button type="submit">Submit</button>
         </div>
+
+        
       </form>
     </div>
   </body>
