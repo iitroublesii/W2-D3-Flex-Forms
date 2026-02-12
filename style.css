@@ -75,4 +75,25 @@ flex-container {
   align-items: center;
   justify-content: center;
   font-size: 16px;
+  background-color: antiquewhite;
+}
+
+h2,
+h3,
+p {
+  text-align: center;
+}
+
+.inline-fruit {
+  display: inline;
+  background-color: lightgreen;
+  padding: 5px 10px;
+  margin: 2px;
+}
+
+.block-fruit {
+  display: block;
+  background-color: lightblue;
+  padding: 5px 10px;
+  margin: 20px;
 }
