@@ -1,71 +1,85 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>W2-D3-Flex-Forms</title>
-  </head>
-  <body>
-    <div class="form-container">
-      <h1>Simple Form</h1>
-      <form id="simpleForm">
 
-        <div class="form-group">
-          <label for="firstName">First Name:</label>
-          <input type="text" id="firstName" required />
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>W2-D3-Flex-Forms</title>
+</head>
 
-          <div class="form-group">
-            <label for="lastName">Last Name:</label>
-          <input type="text" id="lastName" required />
-          </div>
+<body>
+  <div class="form-container">
+    <h1>Simple Form</h1>
+    <form id="simpleForm">
 
-<div class="form-group">
-          <label for="email">Email:</label>
-          <input type="email" id="email" required />
-</div>
+      <div class="form-group">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" required />
+      </div>
 
-<div class="form-group">
-          <label for="password">Password:</label>
-          <input type="password" id="password" minlength="6" required />
-</div>
+      <div class="form-group">
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" required />
+      </div>
 
-<button type="submit">Submit</button>
-        </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" required />
+      </div>
 
-        
-      </form>
-    </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" minlength="6" required />
+      </div>
 
-    <h1>Flexbox Container</h1>
+      <button type="submit">Submit</button>
+  </div>
+  </form>
 
-    <div class="flex-container">
+  <h1>Flexbox Container</h1>
 
-      <div class="flex-item">Strawberry</div>
+  <p>A flex container helps arrange and align items in a row or column.</p>
+  <ul>
+    <li>Justrify-content moves things left, center and right.</li>
+    <li>Align-items moves things up and down.</li>
+  </ul>
 
-      <div class="flex-item">Banana</div>
+  <div class="flex-container">
+    <div class="flex-item">Strawberry</div>
 
-      <div class="flex-item">Cherry</div>
-    </div>
+    <div class="flex-item">Banana</div>
 
-    <h1>Inline vs Block</h1>
+    <div class="flex-item">Cherry</div>
+  </div>
 
-    <h2>Inline</h2>
+  <h1>Inline vs Block</h1>
 
-    <p>Inline sits next to one another on the same line and the width and height can't be changed.</p>
+  <h2>Inline</h2>
 
-    <h2>Block</h2>
+  <p>
+    Inline sits next to one another on the same line and the width and height
+    can't be changed.
+  </p>
 
-<p>Block takes up the full width and automaticallt starts on a new line. The height and width can be changed.</p>
+  <h3>Inline</h3>
 
-    <h3>Inline</h3>
+  <div class="inline-fruit">Strawberry</div>
+  <div class="inline-fruit">Banana</div>
+  <div class="inline-fruit">Cherry</div>
 
-    <div class="inline-fruit">Strawberry</div>
+  <h2>Block</h2>
 
-    <h3>Block</h3>
+  <p>
+    Block takes up the full width and automaticallt starts on a new line. The
+    height and width can be changed.
+  </p>
 
-    <div class="block-fruit">Strawberry</div>
+  <h3>Block</h3>
 
-  </body>
+  <div class="block-fruit">Strawberry</div>
+  <div class="block-fruit">Banana</div>
+  <div class="block-fruit">Cherru</div>
+</body>
+
 </html>
